@@ -2,9 +2,13 @@ package myapp;
 
 public class salesclass {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public void display() {
+		int[] arr= {23,443,456,343};
+		for(int num:arr)
+			System.out.println(num);
 	}
-
+	public void print() {
+		System.out.println("Print all array number;");
+		display();
+	}
 }
